@@ -7,8 +7,9 @@ const user = require('../controller/user')
 // router.get('/', function(req, res, next) {
 //   res.render('index', { title: 'Express' });
 // });
+router.use('/admin/user', user)
 
 //全局注册
-router.use(user)
+// router.use(user)
 
 module.exports = router;

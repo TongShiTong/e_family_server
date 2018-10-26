@@ -7,6 +7,7 @@ var logger = require('morgan');
 const mongooseConnect = require('./model/config')
 //引入session
 const session = require('express-session')
+const MongoStore = require('connect-mongo')(session)
 
 var indexRouter = require('./routes/index');
 
@@ -16,7 +17,9 @@ app.use(session({
     secret: 'tong',
     resave: false,
     saveUninitialized: false,
-    cookie: { secure: false }
+    cookie: { secure: false,maxAge:1000*60*60*2 },
+//    做session持久化,安装connect-mongo,本来存内存，把他存在数据库里
+    store: new MongoStore({mongooseConnection: mongooseConnect})
 }))
 
 // view engine setup

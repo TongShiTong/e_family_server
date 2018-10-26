@@ -12,7 +12,14 @@ const user = new mongoose.Schema({
         required: true
     },
     desc: String,
-    password: String
+    password: {
+        type: String,
+        required: true
+    },
+    nickname: String,
+    job: Number,
+    sex: Number,
+    phone: String
 //    后面第二项传的时间
 }, {versionKey: false, timestamps: {createdAt: 'createTime', updatedAt: 'updateTime'}})
 
