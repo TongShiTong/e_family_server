@@ -16,12 +16,13 @@ router.post('/', auth, async (req, res, next) => {//增加管理员
             desc,
             nickname,
             job,
+            avatar,
             sex,
             phone
         } = req.body
 
-        const avatarNumber = Math.ceil(Math.random()*8)
-        const avatar = `http://pbl.yaojunrong.com/avatar${avatarNumber}.jpg`
+        // const avatarNumber = Math.ceil(Math.random()*8)
+        // const avatar = `http://pbl.yaojunrong.com/avatar${avatarNumber}.jpg`
 
         if(password&&password.length>=5){
             //将字段创建
@@ -50,12 +51,13 @@ router.post('/', auth, async (req, res, next) => {//增加管理员
 })
 
 //修改管理员借口
-router.patch('update/:id', auth, async (req, res , next) => {
+router.patch('/update/:id', auth, async (req, res , next) => {
     try {
         const {
             idnumber,
             password,
             desc,
+            avatar,
             nickname,
             job,
             sex,
@@ -68,6 +70,7 @@ router.patch('update/:id', auth, async (req, res , next) => {
                 idnumber,
                 password,
                 desc,
+                avatar,
                 nickname,
                 job,
                 sex,
