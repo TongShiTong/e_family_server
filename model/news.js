@@ -4,10 +4,7 @@ const mongoose = require('mongoose')
 //建一张表
 const news = new mongoose.Schema({
     title: String,
-    content: {
-        type: String,
-        required: true
-    },
+    content: String,
     contentText: String,
     img: String,
     author: {
