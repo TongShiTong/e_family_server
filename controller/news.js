@@ -50,7 +50,7 @@ router.get('/',async (req, res , next) => {
         const dataList = await newsModel.find()
             .skip((page - 1) * page_size)
             .limit(page_size)
-            .sort({_id: -1})
+            .sort({_id: 1})
             .populate({
                 path: 'author',
                 select: '-password'
@@ -79,7 +79,7 @@ router.get('/:id', async (req,res, next) => {
         const data = await newsModel.findById(id)
             .populate({
                 path: 'author',
-                selete: '-password'
+                select: '-password'
             })
             .populate({
                 path: 'type'
@@ -98,7 +98,7 @@ router.get('/:id', async (req,res, next) => {
 router.delete('/:id', auth, async (req, res, next) => {
     try {
         const {_id} = req.params
-        const data = await newsModel.deleteOne({_id})
+        const data = await newsModel.deleteOne(_id)
         res.json({
             code: 200,
             msg: '删除成功',

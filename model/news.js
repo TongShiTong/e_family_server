@@ -21,9 +21,6 @@ const news = new mongoose.Schema({
         type: Number,
         default: 0
     },
-}, {versionKey: false,timestamp: {
-        createdAt: 'createTime',
-        updatedAt: 'updateTime'
-    }})
+}, {versionKey: false, timestamps: {createdAt: 'createTime', updatedAt: 'updateTime'}})
 
 module.exports = mongoose.model('news', news)

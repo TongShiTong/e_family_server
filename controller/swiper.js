@@ -47,7 +47,7 @@ router.get('/', async (req, res, next) => {
             .sort({sort: 1, _id: 1})
             .populate({
                 path: 'newsId',
-                select: '-password'
+                // select: '-password'
             })
         res.json({
             code: 200,

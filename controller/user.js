@@ -104,7 +104,8 @@ router.get('/', auth, async ( req, res, next ) => {
             .select('-password')
         res.json ({
             code: 200,
-            data
+            msg: '获取管理员成功',
+            data,
         })
     }catch (err) {
         res.json({
@@ -159,7 +160,7 @@ router.post("/login", async (req,res, next) => {
         if (!userData) {
             res.json ({
                 code: 400,
-                msg: '用户不存在'
+                msg: '用户不存在',
             })
         }else {
             if(password&&password==userData.password) {

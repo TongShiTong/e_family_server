@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f57a29e-aef5-44a2-8d7e-e321ba9bcbc6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/controller/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/news.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/news.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/news.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,17 +22,17 @@
       <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="285">
               <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="user.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-931">
-              <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+            <state relative-caret-position="996">
+              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -42,17 +40,17 @@
       <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
+            <state>
               <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="114">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,8 +58,8 @@
       <file leaf-file-name="news.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/news.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="1011">
+              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -69,8 +67,8 @@
       <file leaf-file-name="swiper.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/swiper.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2270">
-              <caret line="123" column="32" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="32" />
+            <state>
+              <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -78,8 +76,8 @@
       <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="133">
+              <caret line="7" column="85" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -87,7 +85,7 @@
       <file leaf-file-name="category.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/category.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
+            <state relative-caret-position="-380">
               <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
             </state>
           </provider>
@@ -96,8 +94,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="38">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -133,14 +131,14 @@
         <option value="$PROJECT_DIR$/model/user.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/controller/auth.js" />
-        <option value="$PROJECT_DIR$/controller/user.js" />
         <option value="$PROJECT_DIR$/model/swiper.js" />
-        <option value="$PROJECT_DIR$/controller/swiper.js" />
         <option value="$PROJECT_DIR$/model/category.js" />
-        <option value="$PROJECT_DIR$/model/news.js" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/controller/category.js" />
         <option value="$PROJECT_DIR$/controller/news.js" />
+        <option value="$PROJECT_DIR$/model/news.js" />
+        <option value="$PROJECT_DIR$/controller/swiper.js" />
+        <option value="$PROJECT_DIR$/controller/user.js" />
       </list>
     </option>
   </component>
@@ -161,10 +159,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="69" />
+    <option name="x" value="-8" />
+    <option name="y" value="6" />
     <option name="width" value="1386" />
-    <option name="height" value="696" />
+    <option name="height" value="767" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,22 +253,24 @@
       <workItem from="1540514870103" duration="9894000" />
       <workItem from="1540599550475" duration="8256000" />
       <workItem from="1540774405071" duration="12116000" />
+      <workItem from="1540859761049" duration="11244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66770000" />
+    <option name="totallyTimeSpent" value="78014000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="69" width="1386" height="696" extended-state="0" />
+    <frame x="-8" y="6" width="1386" height="767" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.740675" visible="true" weight="0.152819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7368421" visible="true" weight="0.152819" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39253998" />
-      <window_info id="npm" order="2" sideWeight="0.25932506" side_tool="true" visible="true" weight="0.152819" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25236592" />
+      <window_info id="npm" order="2" sideWeight="0.2631579" side_tool="true" weight="0.152819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3267857" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -574,15 +574,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="285">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -593,52 +586,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="38">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
+        <state relative-caret-position="-380">
           <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/user.js">
+    <entry file="file://$PROJECT_DIR$/model/category.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-931">
-          <caret line="102" column="28" lean-forward="true" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/swiper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2270">
-          <caret line="123" column="32" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/news.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/news.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/news.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1011">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="996">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
         </state>
       </provider>
     </entry>
