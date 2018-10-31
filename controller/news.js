@@ -58,10 +58,12 @@ router.get('/',async (req, res , next) => {
             .populate({
                 path: 'type'
             })
+        const count = await newsModel.count()
         res.json({
             code: 200,
             msg: '获取新闻成功',
-            data: dataList
+            data: dataList,
+            count
         })
     }catch (err) {
         res.json({
