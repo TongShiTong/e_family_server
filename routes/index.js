@@ -9,6 +9,8 @@ const user = require('../controller/user')
 const swiper = require('../controller/swiper')
 const news = require('../controller/news')
 const category = require('../controller/category')
+const common = require('../controller/common')
+const topic = require('../controller/topic')
 //秘钥
 const cert = require('../utils/auth')
 const newsModel = require('../model/news')
@@ -18,6 +20,8 @@ router.use('/admin/user', user)
 router.use('/admin/news', news)
 router.use('/admin/swiper', swiper)
 router.use('/admin/category', category)
+router.use('/admin/common', common)
+router.use('/admin/topic', topic)
 
 //加密
 router.post('/demo/login', async (req, res , next) => {
